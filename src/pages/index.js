@@ -21,6 +21,7 @@ const Home = ({ posts }) => {
   );
 };
 
+
 // Create a memoization function
 const useMemoizedData = (data) => useMemo(() => data, [data]);
 
